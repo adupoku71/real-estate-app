@@ -2,7 +2,7 @@ import { Navbar } from "./Navbar";
 
 export const Header = () => {
   return (
-    <div
+    <header
       className="min-h-screen mb-4 bg-cover bg-center flex items-center w-full overflow-hidden"
       style={{ backgroundImage: "url('/real-estate-app/header_img.png')" }}
     >
@@ -20,6 +20,6 @@ export const Header = () => {
           </a>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
