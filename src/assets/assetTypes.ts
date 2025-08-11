@@ -4,7 +4,7 @@ interface Assets {
   cross_icon: string;
   menu_icon: string;
   star_icon: string;
-  header_img: string;
+  //   header_img: string;
   brand_img: string;
   project_img_1: string;
   project_img_2: string;
