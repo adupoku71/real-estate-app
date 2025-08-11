@@ -16,8 +16,9 @@ import project_img_6 from "./project_img_6.jpg";
 import profile_img_1 from "./profile_img_1.png";
 import profile_img_2 from "./profile_img_2.png";
 import profile_img_3 from "./profile_img_3.png";
+import type { Assets, Project, Testimonial } from "./assetTypes";
 
-export const assets = {
+export const assets: Assets = {
   logo,
   logo_dark,
   cross_icon,
@@ -33,46 +34,46 @@ export const assets = {
   right_arrow,
 };
 
-export const projectsData = [
+export const projectsData: Project[] = [
   {
     title: "Skyline Haven",
-    price: "$2,500,000",
+    price: 2000000,
     location: "California",
     image: project_img_1,
   },
   {
     title: "Vista Verde",
-    price: "$2,50,000",
+    price: 2000000,
     location: "San Francisco",
     image: project_img_2,
   },
   {
     title: "Serenity Suites",
-    price: "$2,500,000",
+    price: 2000000,
     location: "Chicago",
     image: project_img_3,
   },
   {
     title: "Central Square",
-    price: "$2,500,000",
+    price: 2000000,
     location: "Los Angeles",
     image: project_img_4,
   },
   {
     title: "Vista Verde",
-    price: "$2,500,000",
+    price: 2000000,
     location: "San Francisco",
     image: project_img_5,
   },
   {
     title: "Serenity Suites",
-    price: "$2,500,000",
+    price: 2000000,
     location: "Chicago",
     image: project_img_6,
   },
 ];
 
-export const testimonialsData = [
+export const testimonialsData: Testimonial[] = [
   {
     name: "Donald Jackman",
     title: "Marketing Manager",
